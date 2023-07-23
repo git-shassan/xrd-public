@@ -10,7 +10,6 @@ metadata:
     app.kubernetes.io/name: xrd-control-plane
     app.kubernetes.io/instance: release-name
     app.kubernetes.io/version: "7.8.1"
-    app.kubernetes.io/managed-by: Helm
 data:
   startup.cfg: |
     hostname my-first-xrd
