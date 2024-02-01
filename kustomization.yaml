@@ -28,3 +28,8 @@ resources:
 
 # Stateful set to deploy XRd application
 - statefulset.yaml
+# alternative to the "statefulset", if desired then "deloymentset" can be used as follows: 
+# - deployment.yaml
+# note: There is a slight difference in how the resulting pods are named based on what CR is used. When using "Deoployment" , 
+# the name of pod is something like "xrd-control-plane-6cb7945687-9t7w4" while with statefuset  
+# deployed pods will be named like "xrd-control-plane-0" 
